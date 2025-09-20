@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="russian">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для-примера</title>
+    <link></link>  
+</head>
+<body>
+    <!-- Шапка -->
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <a href="#">TechGadget</a>
+                </div>
+                
+                <div class="search-bar">
+                    <input type="text" placeholder="Поиск товаров...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                
+                <div class="header-actions">
+                    <div class="header-action">
+                        <i class="fas fa-user"></i>
+                        <span>Профиль</span>
+                    </div>
+                    
+                    <div class="header-action" style="position: relative;">
+                        <i class="fas fa-heart"></i>
+                        <span>Избранное</span>
+                    </div>
+                    
+                    <div class="header-action" style="position: relative;">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span>Корзина</span>
+                        <span class="cart-count">3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav>
+            <div class="container">
+                <ul class="nav-menu">
+                    <li><a href="#"><i class="fas fa-mobile-alt"></i> Смартфоны</a></li>
+                    <li><a href="#"><i class="fas fa-laptop"></i> Ноутбуки</a></li>
+                    <li><a href="#"><i class="fas fa-tv"></i> Телевизоры</a></li>
+                    <li><a href="#"><i class="fas fa-headphones"></i> Аудио</a></li>
+                    <li><a href="#"><i class="fas fa-camera"></i> Фото</a></li>
+                    <li><a href="#"><i class="fas fa-gamepad"></i> Игры</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Основное содержимое -->
+    <main class="container">
+        <!-- Промо-баннер -->
+        <section class="promo-banner">
+            <div class="promo-content">
+                <div class="promo-text">
+                    <h2>Новые смартфоны уже в продаже!</h2>
+                    <p>Получите скидку 15% на новейшие модели до конца месяца</p>
+                    <a href="#" class="btn">Подробнее</a>
+                </div>
+                <div class="promo-image">
+                    <i class="fas fa-mobile-alt" style="font-size: 120px;"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Категории товаров -->
+        <section class="categories">
+            <h2 class="section-title">Категории товаров</h2>
+            
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Смартфоны</h3>
+                        <p>Более 250 моделей</p>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Ноутбуки</h3>
+                        <p>Игровые и рабочие</p>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Наушники</h3>
+                        <p>Проводные и беспроводные</p>
+                    </div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-image">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <div class="category-info">
+                        <h3>Телевизоры</h3>
+                        <p>4K и 8K разрешение</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Популярные товары -->
+        <section class="featured-products">
+            <h2 class="section-title">Популярные товары</h2>
+            
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-mobile-alt" style="font-size: 80px; color: #4a6bdf;"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Смартфон Samsung Galaxy S23 Ultra</h3>
+                        <div class="product-price">89 999 ₽</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(128)</span>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn">В корзину</a>
+                            <button><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-headphones" style="font-size: 80px; color: #4a6bdf;"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Наушники Sony WH-1000XM5</h3>
+                        <div class="product-price">29 999 ₽</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(87)</span>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn">В корзину</a>
+                            <button><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-laptop" style="font-size: 80px; color: #4a6bdf;"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Ноутбук Apple MacBook Pro 16"</h3>
+                        <div class="product-price">249 999 ₽</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(54)</span>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn">В корзину</a>
+                            <button><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <i class="fas fa-smartwatch" style="font-size: 80px; color: #4a6bdf;"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Apple Watch Series 8</h3>
+                        <div class="product-price">39 999 ₽</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(42)</span>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn">В корзину</a>
+                            <button><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Преимущества -->
+        <section class="features">
+            <div class="feature-grid">
+                <div class="feature">
+                    <i class="fas fa-truck"></i>
+                    <h3>Бесплатная доставка</h3>
+                    <p>При заказе от 5000 ₽</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Гарантия качества</h3>
+                    <p>На все товары</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-undo"></i>
+                    <h3>Легкий возврат</h3>
+                    <p>В течение 14 дней</p>
+                </div>
+                
+                <div class="feature">
+                    <i class="fas fa-headset"></i>
+                    <h3>Поддержка 24/7</h3>
+                    <p>Всегда на связи</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Подписка на рассылку -->
+        <section class="newsletter">
+            <h2>Подпишитесь на рассылку</h2>
+            <p>Узнавайте первыми о новых поступлениях, акциях и эксклюзивных предложениях</p>
+            
+            <form class="newsletter-form">
+                <input type="email" placeholder="Ваш email">
+                <button>Подписаться</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>О магазине</h3>
+                    <p>TechGadget - лучший выбор электроники и гаджетов по выгодным ценам с доставкой по всей России.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Категории</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Смартфоны</a></li>
+                        <li><a href="#">Ноутбуки</a></li>
+                        <li><a href="#">Телевизоры</a></li>
+                        <li><a href="#">Наушники</a></li>
+                        <li><a href="#">Фототехника</a></li>
+                        <li><a href="#">Игры и консоли</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Полезные ссылки</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Доставка и оплата</a></li>
+                        <li><a href="#">Гарантия</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">Акции</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-phone"></i> 8 (800) 123-45-67</li>
+                        <li><i class="fas fa-envelope"></i> info@techgadget.ru</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Москва, ул. Электронная, 15</li>
+                        <li><i class="fas fa-clock"></i> Пн-Пт: 9:00-21:00, Сб-Вс: 10:00-20:00</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 TechGadget. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Простой JavaScript для демонстрации работы кнопок избранного
+        document.querySelectorAll('.product-actions button').forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                const icon = this.querySelector('i');
+                if (icon.classList.contains('far')) {
+                    icon.classList.remove('far');
+                    icon.classList.add('fas');
+                    this.style.color = '#e74c3c';
+                } else {
+                    icon.classList.remove('fas');
+                    icon.classList.add('far');
+                    this.style.color = '';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
